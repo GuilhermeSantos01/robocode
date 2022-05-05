@@ -45,7 +45,7 @@ public class Franky extends Robot{
 			ahead(100);
 		}
 	}	public void onScannedRobot(ScannedRobotEvent e) {
-		fireBullet(4);
+		fireBullet(5);
 		if (gs) {
 			scan();
 		}
