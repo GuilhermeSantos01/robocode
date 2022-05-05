@@ -22,11 +22,11 @@ public class puck extends AdvancedRobot {
 	}
 
 	public void onScannedRobot(ScannedRobotEvent e) {
-		fire(3);
+		fire(2);
 	}
 	public void onHitRobot(HitRobotEvent e) {
 		if (e.getBearing() > -10 && e.getBearing() < 10) {
-			fire(3);
+			fire(2);
 		}
 		if (e.isMyFault()) {
 			turnRight(15);
